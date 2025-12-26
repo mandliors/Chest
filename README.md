@@ -1,6 +1,6 @@
 # Chest
 
-A lightweight, **header-only** C library that provides **type aliases**, **generic data structures** and **useful functions/macros** especially for algorithmic puzzles and competitive programming.
+A lightweight, **single-header** C library that provides **type aliases**, **generic data structures** and **useful functions/macros** especially for algorithmic puzzles and competitive programming.
 
 This library uses *GNU extensions* for the macros, so be sure to compile appropriately. The code is half vibe coded, special thanks to ChatGPT, Gemini and Claude for the help:)
 
