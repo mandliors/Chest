@@ -4,8 +4,6 @@ A lightweight, **header-only** C library that provides **nice typedefs**, **gene
 
 This library uses *GNU extensions* for the macros, so be sure to compile appropriately. The code is half vibe coded, special thanks to ChatGPT, Gemini and Claude for the help:)
 
----
-
 ## Types
 
 Each type name is a letter that represents the type followed by the size of the type in bits.
@@ -36,8 +34,6 @@ Each type name is a letter that represents the type followed by the size of the 
 - `Dynamic Array (DA)`
 - `Linked List (LL)`
 - `Hash Map (HM)`
-
----
 
 ## Examples
 
@@ -242,8 +238,6 @@ int main(void)
     hm_free(&map);
 }
 ```
-
----
 
 ## How To Use
 
