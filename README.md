@@ -1,4 +1,4 @@
-# Chest.h
+# Chest
 
 A lightweight, **header-only** C library that provides **nice typedefs**, **generic data structures** and **useful functions/macros** especially for algorithmic puzzles and competitive programming.
 
