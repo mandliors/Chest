@@ -1,10 +1,9 @@
 /**
  * chest.h
  *
- * A lightweight C utility header providing type aliases, macros, and implementations for generic data types.
- * Requires GCC/Clang (GNU extensions)
+ * A lightweight C utility header providing type aliases, useful functions/macros, and implementations for generic data types.
+ * Requires GCC/Clang (GNU extensions)ű
  *
- * Copyright (c) 2025 Örs Mándli
  */
 
 #ifndef CHEST_H
@@ -87,15 +86,6 @@ typedef void u0;
 
 // ----------------- DATA TYPES -----------------
 
-/*
- * Dynamic Array - example usage:
- *
- * DA(i32) numbers = {0};
- * da_init(&numbers);
- * da_push(&numbers, 69420);
- * i32 x = da_get(&numbers, 0);
- * da_free(&numbers);
- */
 #ifdef CHEST_ENABLE_DA
 typedef struct
 {
@@ -188,16 +178,6 @@ typedef DA(b8) DA_b8;
 
 #endif // CHEST_ENABLE_DA
 
-/*
- * Singly Linked List - example usage:
- *
- * LL(i32) list = {0};
- * ll_init(&list);
- * ll_push_back(&list, 420);
- * ll_push_front(&list, 69);
- * i32 val = ll_get(&list, 0);
- * ll_free(&list);
- */
 #ifdef CHEST_ENABLE_LL
 
 typedef struct
@@ -309,21 +289,6 @@ typedef LL(cstr) LL_cstr;
 typedef LL(b8) LL_b8;
 
 #endif // CHEST_ENABLE_LL
-
-/* Hash map - example usage:
- *
- * HM(u64, i32) map = {0};
-
- * hm_init(&map, HM_HASH_UINT, HM_EQUAL_UINT);
- * hm_put(&map, 69, 420);
- * hm_put(&map, 666, 67);
- *
- * i32 *v = hm_get(&map, 666);
- * if (v) printf("%d\n", *v);
- *
- * hm_remove(&map, 69);
- * hm_free(&map);
- */
 
 #ifdef CHEST_ENABLE_HM
 

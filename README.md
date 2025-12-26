@@ -1,10 +1,10 @@
 # Chest
 
-A lightweight, **header-only** C library that provides **nice typedefs**, **generic data structures** and **useful functions/macros** especially for algorithmic puzzles and competitive programming.
+A lightweight, **header-only** C library that provides **type aliases**, **generic data structures** and **useful functions/macros** especially for algorithmic puzzles and competitive programming.
 
 This library uses *GNU extensions* for the macros, so be sure to compile appropriately. The code is half vibe coded, special thanks to ChatGPT, Gemini and Claude for the help:)
 
-## Types
+## Type Aliases
 
 Each type name is a letter that represents the type followed by the size of the type in bits.
 
